@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailIlmuWarisViewController" customModule="FinalProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="1WP-ph-ijj"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="703"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="whc-uP-35T">
+                    <rect key="frame" x="0.0" y="20" width="320" height="683"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uve-J6-eMw">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="550.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suami" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i94-k0-3Ge">
+                                    <rect key="frame" x="16" y="8" width="288" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suami bisa mendapatkan bagian harta warisan sebesar 1/2 bagian atau 1/4 bagian." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMQ-0z-WIZ">
+                                    <rect key="frame" x="16" y="36.5" width="288" height="31.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="huA-3q-66S">
+                                    <rect key="frame" x="16" y="84" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="4Bx-K4-cXU">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="YKK-GR-PW6"/>
+                                                <constraint firstAttribute="height" constant="29" id="gtI-nD-vNP"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bagian 1/2" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HKe-w8-89o">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suami akan mendapatkan harta warisan sebesar 1/2 bagian dengan syarat:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7RM-Pc-rAk">
+                                    <rect key="frame" x="16" y="113" width="288" height="31.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Pewaris tidak punya anak atau cucu." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jhL-ce-gXD">
+                                    <rect key="frame" x="32" y="149" width="272" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="f3B-8d-4GH">
+                                    <rect key="frame" x="16" y="181" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="d72-RK-LGg">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="EQu-cI-DTU"/>
+                                                <constraint firstAttribute="width" constant="29" id="Tpp-pW-OBB"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bagian 1/4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6U-v2-msf">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suami akan mendapatkan harta warisan sebesar 1/2 bagian dengan syarat:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIa-nU-Ge9">
+                                    <rect key="frame" x="16" y="210" width="288" height="31.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Pewaris punya anak atau cucu." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEH-AB-cYo">
+                                    <rect key="frame" x="32" y="246" width="272" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istri" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PHG-mJ-SuO">
+                                    <rect key="frame" x="16" y="280" width="288" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istri bisa mendapatkan harta warisan sebesar 1/4 bagian atau 1/8 bagian." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oLO-WI-GLa">
+                                    <rect key="frame" x="16" y="308.5" width="288" height="31.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="7kD-HG-ujp">
+                                    <rect key="frame" x="16" y="356.5" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="5Io-dZ-G0h">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="Hub-BZ-hyV"/>
+                                                <constraint firstAttribute="height" constant="29" id="wd5-fm-qa9"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bagian 1/4" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKa-NT-IvP">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istri akan mendapatkan harta warisan sebesar 1/4 bagian dengan syarat:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4UH-Ky-aP9">
+                                    <rect key="frame" x="16" y="385.5" width="288" height="31.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Pewaris tidak punya anak atau cucu." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZi-eg-g5J">
+                                    <rect key="frame" x="32" y="421.5" width="272" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Dpv-SA-Bbg">
+                                    <rect key="frame" x="16" y="453.5" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="TZy-cq-AEN">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="RSS-pP-nSN"/>
+                                                <constraint firstAttribute="height" constant="29" id="wGh-9w-hvc"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bagian 1/8" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgj-k4-MjK">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Istri akan mendapatkan harta warisan sebesar 1/2 bagian dengan syarat:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lpu-gd-7bz">
+                                    <rect key="frame" x="16" y="482.5" width="288" height="31.5"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="- Pewaris punya anak atau cucu." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TbH-4S-6IJ">
+                                    <rect key="frame" x="32" y="518.5" width="272" height="16"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VZJ-gE-lF3">
+                                    <rect key="frame" x="0.0" y="270" width="320" height="2"/>
+                                    <color key="backgroundColor" red="0.063000001010000001" green="0.45899999139999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="2" id="6Dc-78-Crx"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="i94-k0-3Ge" firstAttribute="top" secondItem="uve-J6-eMw" secondAttribute="top" constant="8" id="0Mo-xe-gEe"/>
+                                <constraint firstItem="VZJ-gE-lF3" firstAttribute="top" secondItem="FEH-AB-cYo" secondAttribute="bottom" constant="8" id="0xV-Tx-DEn"/>
+                                <constraint firstAttribute="trailing" secondItem="7RM-Pc-rAk" secondAttribute="trailing" constant="16" id="1MC-U7-rfz"/>
+                                <constraint firstItem="i94-k0-3Ge" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="26f-M7-YGr"/>
+                                <constraint firstAttribute="trailing" secondItem="zMQ-0z-WIZ" secondAttribute="trailing" constant="16" id="2J1-b2-99P"/>
+                                <constraint firstAttribute="trailing" secondItem="Lpu-gd-7bz" secondAttribute="trailing" constant="16" id="2NP-WB-gsa"/>
+                                <constraint firstItem="jhL-ce-gXD" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="32" id="5Na-sh-6E8"/>
+                                <constraint firstItem="BZi-eg-g5J" firstAttribute="top" secondItem="4UH-Ky-aP9" secondAttribute="bottom" constant="5" id="5kN-7f-KZ6"/>
+                                <constraint firstItem="huA-3q-66S" firstAttribute="top" secondItem="zMQ-0z-WIZ" secondAttribute="bottom" constant="16" id="5wY-yv-fOm"/>
+                                <constraint firstItem="Dpv-SA-Bbg" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="6vo-mb-baE"/>
+                                <constraint firstItem="4UH-Ky-aP9" firstAttribute="top" secondItem="7kD-HG-ujp" secondAttribute="bottom" id="7mE-Zr-5h4"/>
+                                <constraint firstAttribute="trailing" secondItem="TbH-4S-6IJ" secondAttribute="trailing" constant="16" id="9PG-JA-fnQ"/>
+                                <constraint firstItem="PHG-mJ-SuO" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="AH2-NP-GDz"/>
+                                <constraint firstItem="oLO-WI-GLa" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="Dwf-v0-QRJ"/>
+                                <constraint firstItem="4UH-Ky-aP9" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="FTF-ab-jXd"/>
+                                <constraint firstItem="7RM-Pc-rAk" firstAttribute="top" secondItem="huA-3q-66S" secondAttribute="bottom" id="IKx-MV-acw"/>
+                                <constraint firstItem="TbH-4S-6IJ" firstAttribute="top" secondItem="Lpu-gd-7bz" secondAttribute="bottom" constant="5" id="Jwn-i0-MTm"/>
+                                <constraint firstItem="FEH-AB-cYo" firstAttribute="top" secondItem="QIa-nU-Ge9" secondAttribute="bottom" constant="5" id="K5v-mr-RTL"/>
+                                <constraint firstItem="zMQ-0z-WIZ" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="LMV-rb-yps"/>
+                                <constraint firstAttribute="trailing" secondItem="4UH-Ky-aP9" secondAttribute="trailing" constant="16" id="LNN-nW-tgM"/>
+                                <constraint firstAttribute="trailing" secondItem="jhL-ce-gXD" secondAttribute="trailing" constant="16" id="Lhf-02-jzH"/>
+                                <constraint firstItem="f3B-8d-4GH" firstAttribute="top" secondItem="jhL-ce-gXD" secondAttribute="bottom" constant="16" id="NlT-xU-0g2"/>
+                                <constraint firstAttribute="trailing" secondItem="PHG-mJ-SuO" secondAttribute="trailing" constant="16" id="Oje-ML-QEG"/>
+                                <constraint firstAttribute="trailing" secondItem="BZi-eg-g5J" secondAttribute="trailing" constant="16" id="P2F-8x-dp1"/>
+                                <constraint firstAttribute="trailing" secondItem="Dpv-SA-Bbg" secondAttribute="trailing" constant="16" id="Prk-og-s7b"/>
+                                <constraint firstAttribute="trailing" secondItem="huA-3q-66S" secondAttribute="trailing" constant="16" id="UQV-bf-dSV"/>
+                                <constraint firstItem="huA-3q-66S" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="ZfW-d9-a5b"/>
+                                <constraint firstAttribute="trailing" secondItem="7kD-HG-ujp" secondAttribute="trailing" constant="16" id="afe-3u-pIK"/>
+                                <constraint firstItem="7RM-Pc-rAk" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="aj4-Nb-kPR"/>
+                                <constraint firstItem="zMQ-0z-WIZ" firstAttribute="top" secondItem="i94-k0-3Ge" secondAttribute="bottom" constant="8" id="dSD-SJ-cqU"/>
+                                <constraint firstItem="7kD-HG-ujp" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="dmj-Ag-EAz"/>
+                                <constraint firstAttribute="trailing" secondItem="oLO-WI-GLa" secondAttribute="trailing" constant="16" id="dzm-Cd-qxd"/>
+                                <constraint firstItem="TbH-4S-6IJ" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="32" id="fcG-u0-E3g"/>
+                                <constraint firstItem="f3B-8d-4GH" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="gxg-BI-mIT"/>
+                                <constraint firstItem="7kD-HG-ujp" firstAttribute="top" secondItem="oLO-WI-GLa" secondAttribute="bottom" constant="16" id="i2B-4O-fAD"/>
+                                <constraint firstItem="QIa-nU-Ge9" firstAttribute="top" secondItem="f3B-8d-4GH" secondAttribute="bottom" id="jHW-3t-JgX"/>
+                                <constraint firstItem="FEH-AB-cYo" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="32" id="kQa-Yc-ngs"/>
+                                <constraint firstAttribute="trailing" secondItem="FEH-AB-cYo" secondAttribute="trailing" constant="16" id="lc2-Cj-SBg"/>
+                                <constraint firstAttribute="trailing" secondItem="i94-k0-3Ge" secondAttribute="trailing" constant="16" id="lrQ-kO-V14"/>
+                                <constraint firstItem="Lpu-gd-7bz" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="mwr-aO-tCf"/>
+                                <constraint firstItem="VZJ-gE-lF3" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" id="pjf-no-PVT"/>
+                                <constraint firstItem="jhL-ce-gXD" firstAttribute="top" secondItem="7RM-Pc-rAk" secondAttribute="bottom" constant="5" id="qJh-xE-PJa"/>
+                                <constraint firstAttribute="trailing" secondItem="VZJ-gE-lF3" secondAttribute="trailing" id="rOn-T2-PzS"/>
+                                <constraint firstAttribute="trailing" secondItem="f3B-8d-4GH" secondAttribute="trailing" constant="16" id="rdo-NB-VEL"/>
+                                <constraint firstAttribute="trailing" secondItem="QIa-nU-Ge9" secondAttribute="trailing" constant="16" id="svv-i9-Be4"/>
+                                <constraint firstItem="QIa-nU-Ge9" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="16" id="tHD-ur-pBo"/>
+                                <constraint firstItem="oLO-WI-GLa" firstAttribute="top" secondItem="PHG-mJ-SuO" secondAttribute="bottom" constant="8" id="tOc-wJ-7av"/>
+                                <constraint firstItem="Lpu-gd-7bz" firstAttribute="top" secondItem="Dpv-SA-Bbg" secondAttribute="bottom" id="tQm-Vl-BiZ"/>
+                                <constraint firstItem="PHG-mJ-SuO" firstAttribute="top" secondItem="VZJ-gE-lF3" secondAttribute="bottom" constant="8" id="uH2-Tc-K9q"/>
+                                <constraint firstAttribute="bottom" secondItem="TbH-4S-6IJ" secondAttribute="bottom" constant="16" id="xyL-56-DSw"/>
+                                <constraint firstItem="Dpv-SA-Bbg" firstAttribute="top" secondItem="BZi-eg-g5J" secondAttribute="bottom" constant="16" id="y0j-8D-VrQ"/>
+                                <constraint firstItem="BZi-eg-g5J" firstAttribute="leading" secondItem="uve-J6-eMw" secondAttribute="leading" constant="32" id="y2P-Xc-PmZ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="uve-J6-eMw" secondAttribute="trailing" id="ATu-SZ-3z2"/>
+                        <constraint firstItem="uve-J6-eMw" firstAttribute="height" secondItem="whc-uP-35T" secondAttribute="height" priority="250" id="QSQ-wd-FlJ"/>
+                        <constraint firstAttribute="bottom" secondItem="uve-J6-eMw" secondAttribute="bottom" id="VEJ-8O-wS8"/>
+                        <constraint firstItem="uve-J6-eMw" firstAttribute="leading" secondItem="whc-uP-35T" secondAttribute="leading" id="mzJ-N0-jto"/>
+                        <constraint firstItem="uve-J6-eMw" firstAttribute="top" secondItem="whc-uP-35T" secondAttribute="top" id="sgu-4l-pxM"/>
+                        <constraint firstItem="uve-J6-eMw" firstAttribute="width" secondItem="whc-uP-35T" secondAttribute="width" id="zHR-Bu-IFA"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="whc-uP-35T" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ATW-yl-PK8"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="whc-uP-35T" secondAttribute="trailing" id="W5q-Hy-Vcz"/>
+                <constraint firstItem="whc-uP-35T" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="elY-5Y-fSO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="whc-uP-35T" secondAttribute="bottom" id="ugh-7O-wVa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34" y="121.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Book" width="167" height="167"/>
+    </resources>
+</document>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailIlmuWarisViewController" customModule="FinalProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="lcy-Z6-AQv"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Czw-2G-lNo">
+                    <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EIh-P5-O5W">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="315.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nenek" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gM-Sy-R0L">
+                                    <rect key="frame" x="16" y="8" width="288" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXH-rP-2v7">
+                                    <rect key="frame" x="16" y="36" width="288" height="78"/>
+                                    <string key="text">Ilmu Waris mengenal dua macam Nenek, yaitu Nenek dari Ayah dan juga Nenek dari Ibu. Perbedaan dari keduanya hanya terletak pada Hujubnya saja, dan tidak ada perbedaan dalam pembagian harta warisan.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4PU-DH-ken">
+                                    <rect key="frame" x="16" y="122" width="288" height="62.5"/>
+                                    <string key="text">Sebagai Ashabul Furudh, Nenek dari Ayah dan juga Nenek dari Ibu digabung atau bersekutu kadar bagiannya, dan harta tersebut dibagi secara merata per orang jika ada banyak Nenek</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="rbd-ua-d7Z">
+                                    <rect key="frame" x="16" y="200.5" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="9hq-4z-VSw">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="Ds0-qJ-amH"/>
+                                                <constraint firstAttribute="height" constant="29" id="pvv-gN-mhx"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bagian 1/6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgV-zf-Nij">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3q-Uf-PAl">
+                                    <rect key="frame" x="16" y="229.5" width="288" height="78"/>
+                                    <string key="text">Nenek, berapa saja jumlahnya, baik itu Nenek dari Ayah atau Nenek dari Ibu, hanya berhak mendapatkan 1/6 saja, dan harta tersebut dibagikan secara rata per orang jika ada lebih dari satu Nenek</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="5gM-Sy-R0L" secondAttribute="trailing" constant="16" id="1SO-ST-VkF"/>
+                                <constraint firstItem="4PU-DH-ken" firstAttribute="top" secondItem="hXH-rP-2v7" secondAttribute="bottom" constant="8" id="BHJ-mL-MM6"/>
+                                <constraint firstAttribute="bottom" secondItem="C3q-Uf-PAl" secondAttribute="bottom" constant="8" id="CGy-Qe-4MM"/>
+                                <constraint firstItem="5gM-Sy-R0L" firstAttribute="top" secondItem="EIh-P5-O5W" secondAttribute="top" constant="8" id="FEr-yz-wIM"/>
+                                <constraint firstItem="C3q-Uf-PAl" firstAttribute="leading" secondItem="EIh-P5-O5W" secondAttribute="leading" constant="16" id="LH2-g8-93a"/>
+                                <constraint firstItem="rbd-ua-d7Z" firstAttribute="top" secondItem="4PU-DH-ken" secondAttribute="bottom" constant="16" id="Lp6-zO-IhK"/>
+                                <constraint firstAttribute="trailing" secondItem="hXH-rP-2v7" secondAttribute="trailing" constant="16" id="M0v-zf-lO1"/>
+                                <constraint firstItem="rbd-ua-d7Z" firstAttribute="leading" secondItem="EIh-P5-O5W" secondAttribute="leading" constant="16" id="MEM-zt-tgT"/>
+                                <constraint firstItem="5gM-Sy-R0L" firstAttribute="leading" secondItem="EIh-P5-O5W" secondAttribute="leading" constant="16" id="Mwh-eJ-hhR"/>
+                                <constraint firstItem="4PU-DH-ken" firstAttribute="leading" secondItem="EIh-P5-O5W" secondAttribute="leading" constant="16" id="QmF-CW-xx9"/>
+                                <constraint firstItem="C3q-Uf-PAl" firstAttribute="top" secondItem="rbd-ua-d7Z" secondAttribute="bottom" id="UU0-QN-cUJ"/>
+                                <constraint firstAttribute="trailing" secondItem="4PU-DH-ken" secondAttribute="trailing" constant="16" id="Z0Q-HQ-iB5"/>
+                                <constraint firstItem="hXH-rP-2v7" firstAttribute="leading" secondItem="EIh-P5-O5W" secondAttribute="leading" constant="16" id="gDt-OA-lej"/>
+                                <constraint firstItem="hXH-rP-2v7" firstAttribute="top" secondItem="5gM-Sy-R0L" secondAttribute="bottom" constant="8" id="iL1-Ch-veN"/>
+                                <constraint firstAttribute="trailing" secondItem="rbd-ua-d7Z" secondAttribute="trailing" constant="16" id="rFm-Ed-yUi"/>
+                                <constraint firstAttribute="trailing" secondItem="C3q-Uf-PAl" secondAttribute="trailing" constant="16" id="zmd-15-F3p"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="EIh-P5-O5W" secondAttribute="bottom" id="XKz-8Z-6LW"/>
+                        <constraint firstAttribute="trailing" secondItem="EIh-P5-O5W" secondAttribute="trailing" id="ZFa-cO-oOt"/>
+                        <constraint firstItem="EIh-P5-O5W" firstAttribute="leading" secondItem="Czw-2G-lNo" secondAttribute="leading" id="fg9-Yd-Olo"/>
+                        <constraint firstItem="EIh-P5-O5W" firstAttribute="top" secondItem="Czw-2G-lNo" secondAttribute="top" id="oqu-Js-1P9"/>
+                        <constraint firstItem="EIh-P5-O5W" firstAttribute="height" secondItem="Czw-2G-lNo" secondAttribute="height" priority="250" id="w9U-rB-MHU"/>
+                        <constraint firstItem="EIh-P5-O5W" firstAttribute="width" secondItem="Czw-2G-lNo" secondAttribute="width" id="xIU-Ir-YOq"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Czw-2G-lNo" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="TTC-q6-Bga"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Czw-2G-lNo" secondAttribute="trailing" id="UkI-va-e4a"/>
+                <constraint firstItem="Czw-2G-lNo" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="jDb-8M-uMl"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Czw-2G-lNo" secondAttribute="bottom" id="wff-is-wvu"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Book" width="167" height="167"/>
+    </resources>
+</document>

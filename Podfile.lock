@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.6.0)
+  - IQKeyboardManagerSwift (5.0.7)
+  - KGRadioButton (1.2.1)
+  - LTHRadioButton (1.2.0)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - IQKeyboardManagerSwift
+  - KGRadioButton
+  - LTHRadioButton
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - KGRadioButton
+    - LTHRadioButton
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  KGRadioButton: 6b8f49879988d0f55be0ba9b153ccce8902981b5
+  LTHRadioButton: bcd4b49a8e0af81b5140e67583a868d96e956557
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: ae2846cc0cea6e62c776c3b6715d27e51a81e309
+
+COCOAPODS: 1.5.0

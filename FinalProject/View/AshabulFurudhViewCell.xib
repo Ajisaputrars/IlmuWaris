@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ashabulFurudhCell" rowHeight="64" id="ax0-mj-SsW" customClass="AshabulFurudhTableViewCell" customModule="FinalProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="382" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ax0-mj-SsW" id="6h3-MO-9TU">
+                <rect key="frame" x="0.0" y="0.0" width="382" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4a-38-clv">
+                        <rect key="frame" x="48" y="11" width="318" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="JxA-xu-DRw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suami / Istri yang sah dan masih sah dari pewaris" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LP0-zK-fbx">
+                        <rect key="frame" x="48" y="32" width="318" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PersonIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Ytx-0R-nhj">
+                        <rect key="frame" x="10" y="12" width="30" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="7GK-M5-psU"/>
+                            <constraint firstAttribute="width" constant="30" id="ENw-UI-MSY"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nky-Ib-1oE">
+                        <rect key="frame" x="8" y="62" width="374" height="1"/>
+                        <color key="backgroundColor" red="0.063000001010000001" green="0.45899999139999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="fWz-6N-0do"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="nky-Ib-1oE" secondAttribute="trailing" id="DFj-N9-0PO"/>
+                    <constraint firstItem="LP0-zK-fbx" firstAttribute="trailing" secondItem="6h3-MO-9TU" secondAttribute="trailingMargin" id="DoJ-VN-qGK"/>
+                    <constraint firstItem="nky-Ib-1oE" firstAttribute="leading" secondItem="6h3-MO-9TU" secondAttribute="leading" constant="8" id="PK3-om-v6S"/>
+                    <constraint firstItem="LP0-zK-fbx" firstAttribute="top" secondItem="e4a-38-clv" secondAttribute="bottom" id="Vtg-u4-tR0"/>
+                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="LP0-zK-fbx" secondAttribute="bottom" constant="1" id="W72-cO-Ctj"/>
+                    <constraint firstItem="e4a-38-clv" firstAttribute="top" secondItem="6h3-MO-9TU" secondAttribute="topMargin" id="X2y-jH-QLm"/>
+                    <constraint firstItem="e4a-38-clv" firstAttribute="trailing" secondItem="6h3-MO-9TU" secondAttribute="trailingMargin" id="lOY-P6-QyC"/>
+                    <constraint firstItem="e4a-38-clv" firstAttribute="leading" secondItem="Ytx-0R-nhj" secondAttribute="trailing" constant="8" id="q33-lp-oyH"/>
+                    <constraint firstItem="LP0-zK-fbx" firstAttribute="leading" secondItem="Ytx-0R-nhj" secondAttribute="trailing" constant="8" id="rPj-LW-RF7"/>
+                    <constraint firstItem="Ytx-0R-nhj" firstAttribute="leading" secondItem="6h3-MO-9TU" secondAttribute="leading" constant="10" id="sYo-Nv-oYV"/>
+                    <constraint firstAttribute="bottom" secondItem="nky-Ib-1oE" secondAttribute="bottom" id="vJr-p1-Vv5"/>
+                    <constraint firstItem="Ytx-0R-nhj" firstAttribute="centerY" secondItem="6h3-MO-9TU" secondAttribute="centerY" id="wa9-bd-ghZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descLabel" destination="LP0-zK-fbx" id="ezO-Mb-9v2"/>
+                <outlet property="imageViewCell" destination="Ytx-0R-nhj" id="yLu-S8-tUn"/>
+                <outlet property="titleLabel" destination="e4a-38-clv" id="v8f-Ge-grQ"/>
+            </connections>
+            <point key="canvasLocation" x="-42" y="173"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="PersonIcon" width="107" height="138"/>
+    </resources>
+</document>

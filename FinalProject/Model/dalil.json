@@ -1,0 +1,388 @@
+{
+    "dalil" : [{
+               "tag" : "0",
+               "ahliWaris" : "Sample Ahli Waris",
+               "bagian" : "0/0",
+               "syarat" : "Sample Syarat",
+               "sumberDalil" : "Sample Sumber Dalil",
+               "dalilLengkap" : "0",
+               "isiDalil" : "Sample Isi Dalil"
+               } , {
+               "tag" : "1",
+               "ahliWaris" : "Anak Laki-laki",
+               "bagian" : "Ashabah",
+               "syarat" : "Anak Laki-Laki, akan menerima harta warisan sebagai seorang Ashabah, dan akan membuat Anak Perempuan menerima harta warisan secara Ashabah sebagai Ashabah bil Ghair, jika ada",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... bagian seorang anak lelaki sama dengan bagian dua orang anak perempuan, ..."
+               } , {
+               "tag" : "3",
+               "ahliWaris" : "Anak Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/2",
+               "syarat" : "Anak Perempuan akan menerima harta 1/2 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki Anak Laki-Laki. - Pewaris hanya memiliki satu Anak Perempuan",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... jika anak perempuan itu seorang saja, maka ia memperoleh separuh harta."
+               },{
+               "tag" : "2",
+               "ahliWaris" : "Anak Perempuan",
+               "bagian" : "2/3",
+               "syarat" : "Anak Perempuan akan menerima harta 2/3 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki Anak Laki-Laki. - Pewaris memiliki Anak Perempuan lebih dari satu",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... dan jika anak itu semuanya perempuan ada dua (atau lebih), maka bagi mereka dua pertiga dari harta yang ditinggalkan, ..."
+               }, {
+               "tag" : "4",
+               "ahliWaris" : "Anak Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "Ashabah (bil Ghair)",
+               "syarat" : "Anak Perempuan akan menerima harta secara Ashabah sebagai Ashabah bil Ghair dengan syarat sebagai berikut: - Pewaris memiliki Anak Laki-Laki. - Harta dibagikan dengan ketentuan satu bagian laki-laki sama dengan dua bagian perempuan.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... bagian seorang anak lelaki sama dengan bagian dua orang anak perempuan, ..."
+               }, {
+               "tag" : "5",
+               "ahliWaris" : "Cucu Laki-laki",
+               "bagian" : "Ashabah",
+               "syarat" : "Cucu Laki-Laki akan menerima harta warisan sebagai seorang Ashabah, dan akan membuat Cucu Perempuan menerima harta warisan secara Ashabah sebagai Ashabah bil Ghair, jika ada",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... bagian seorang anak lelaki sama dengan bagian dua orang anak perempuan, ..."
+               } , {
+               "tag" : "7",
+               "ahliWaris" : "Cucu Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/2",
+               "syarat" : "Cucu Perempuan akan menerima harta 1/2 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki Cucu Laki-Laki. - Pewaris hanya memiliki satu Cucu Perempuan. - Pewaris tidak memiliki Anak Perempuan.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... jika anak perempuan itu seorang saja, maka ia memperoleh separuh harta."
+               }, {
+               "tag" : "6",
+               "ahliWaris" : "Cucu Perempuan",
+               "bagian" : "2/3",
+               "syarat" : "Cucu Perempuan akan menerima harta 2/3 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki Cucu Laki-Laki. - Pewaris memiliki lebih dari satu Cucu Perempuan. - Pewaris tidak memiliki Anak Perempuan.",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... dan jika anak itu semuanya perempuan ada dua (atau lebih), maka bagi mereka dua pertiga dari harta yang ditinggalkan, ..."
+               }, {
+               "tag" : "8",
+               "ahliWaris" : "Cucu Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/6",
+               "syarat" : "Cucu Perempuan akan menerima harta 1/6 bagian sebagai pelengkap 2/3 dengan Anak Perempuan dengan syarat sebagai berikut: - Pewaris tidak memiliki Cucu Laki-Laki. - Pewaris memiliki hanya satu Anak Perempuan.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "...bagi anak perempuan separo (1/2) harta, dan bagi cucu perempuan mendapat seperenam (1/6) sebagai pelengkap 2/3,..."
+               },{
+               "tag" : "9",
+               "ahliWaris" : "Cucu Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "Ashabah (bil Ghair)",
+               "syarat" : "Cucu Perempuan akan menerima harta secara Ashabah sebagai Ashabah bil Ghair dengan syarat sebagai berikut: - Pewaris memiliki Cucu Laki-Laki. - Harta dibagikan dengan ketentuan satu bagian laki-laki sama dengan dua bagian perempuan.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... bagian seorang anak lelaki sama dengan bagian dua orang anak perempuan, ..."
+               },{
+               "tag" : "10",
+               "ahliWaris" : "Ayah",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/6",
+               "syarat" : "Ayah akan menerima harta 1/6 bagian dengan syarat sebagai berikut:  - Pewaris memiliki anak atau cucu, baik laki-laki maupun perempuan.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "Dan untuk dua orang ibu-bapak, bagi masing-masingnya seperenam dari harta yang ditinggalkan, jika yang meninggal itu mempunyai anak, ..."
+               }, {
+               "tag" : "11",
+               "ahliWaris" : "Ayah",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "Ashabah",
+               "syarat" : "Ayah akan menerima harta secara Ashabah dengan syarat sebagai berikut:  - Pewaris tidak memiliki anak atau cucu.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "..., jika orang yang meninggal tidak mempunyai anak dan ia diwarisi oleh ibu-bapaknya (saja), maka ibunya mendapat sepertiga (dan Ayah mempusakai sisanya), ..."
+               }, {
+               "tag" : "12",
+               "ahliWaris" : "Ayah",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Tambahan Ashabah",
+               "syarat" : "Ayah akan menerima tambahan sisa harta sebagai Ashabah dengan syarat sebagai berikut:  - Pewaris tidak memiliki Anak Laki-Laki atau Cucu Laki-Laki. - Pewaris memiliki Anak Perempuan atau Cucu Perempuan. - Tidak terjadi Aul dalam pembagian harta warisan",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               }, {
+               "tag" : "13",
+               "ahliWaris" : "Kakek",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/6",
+               "syarat" : "Kakek akan menerima harta 1/6 bagian dengan syarat sebagai berikut:  - Pewaris memiliki anak atau cucu, baik laki-laki maupun perempuan.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "Dan untuk dua orang ibu-bapak, bagi masing-masingnya seperenam dari harta yang ditinggalkan, jika yang meninggal itu mempunyai anak, ..."
+               }, {
+               "tag" : "14",
+               "ahliWaris" : "Kakek",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "Ashabah",
+               "syarat" : "Kakek akan menerima harta secara Ashabah dengan syarat sebagai berikut:  - Pewaris tidak memiliki anak atau cucu.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "..., jika orang yang meninggal tidak mempunyai anak dan ia diwarisi oleh ibu-bapaknya (saja), maka ibunya mendapat sepertiga (dan Ayah mempusakai sisanya), ..."
+               },{
+               "tag" : "15",
+               "ahliWaris" : "Kakek",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Tambahan Ashabah",
+               "syarat" : "Kakek akan menerima tambahan sisa harta sebagai Ashabah dengan syarat sebagai berikut:  - Pewaris tidak memiliki Anak Laki-Laki atau Cucu Laki-Laki. - Pewaris memiliki Anak Perempuan atau Cucu Perempuan. - Tidak terjadi Aul dalam pembagian harta warisan",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               },{
+               "tag" : "16",
+               "ahliWaris" : "Ibu",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/6",
+               "syarat" : "Ibu akan menerima harta 1/6 bagian dengan syarat sebagai berikut: - Pewaris memiliki anak atau cucu, baik laki-laki maupun perempuan. - Pewaris memiliki total lebih dari satu saudara, baik Saudara Kandung, Saudara Seayah, maupun Saudara Seibu.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "Dan untuk dua orang ibu-bapak, bagi masing-masingnya seperenam dari harta yang ditinggalkan, jika yang meninggal itu mempunyai anak..."
+               } , {
+               "tag" : "17",
+               "ahliWaris" : "Ibu",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/3",
+               "syarat" : "Ibu akan mendapatkan harta 1/3 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu, baik laki-laki maupun perempuan",
+               "dalilLengkap" : "1",
+               "isiDalil" : "..., jika orang yang meninggal tidak mempunyai anak dan ia diwarisi oleh ibu-bapaknya (saja), maka ibunya mendapat sepertiga (dan Ayah mempusakai sisanya), ..."
+               } , {
+               "tag" : "18",
+               "ahliWaris" : "Ibu",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "Ashabah",
+               "syarat" : "Satu-satunya kondisi di mana Ibu akan mendapatkan bagian secara Ashabah adalah ketika pewaris hanya meninggalkan ahli waris berupa Ayah, Ibu, dan Pasangan (Suami/Istri) saja. Ibu pada dasarnya tetap mendapatkan 1/3 bagian, namun dengan syarat bahwa harta tersebut harus diambil dulu oleh Pasangan, dan sisanya baru dibagikan kepada Ayah dan Ibu dengan kadar bagian 1/3 untuk Ibu dan sisanya untuk Ayah. Perhitungan ini sama dengan menempatkan Ibu dan Ayah pada penerima harta sisa sebagai Ashabah, seperti Anak Laki-Laki dan Anak Perempuan, dengan ketentuan bagian Laki-Laki sama dengan dua kali bagian Perempuan",
+               "dalilLengkap" : "1",
+               "isiDalil" : "..., jika orang yang meninggal tidak mempunyai anak dan ia diwarisi oleh ibu-bapaknya (saja), maka ibunya mendapat sepertiga (dan Ayah mempusakai sisanya), ..."
+               } , {
+               "tag" : "19",
+               "ahliWaris" : "Nenek",
+               "sumberDalil" : "H.R. Ibnu Majah no. 2715",
+               "bagian" : "1/6",
+               "syarat" : "Nenek, baik Nenek dari Ibu atau Nenek dari Ayah, akan mendapatkan harta 1/6 dan hartanya dibagi rata jika ada lebih dari satu Nenek. Perbedaan Nenek dari Ayah dan Nenek dari Ibu hanyalah masalah Hujubnya saja.",
+               "dalilLengkap" : "4",
+               "isiDalil" : "...Sesungguhnya Rasulullah memberi bagian warisan kepada nenek seperenam (1/6)..."
+               },{
+               "tag" : "20",
+               "ahliWaris" : "Suami",
+               "sumberDalil" : "QS. An-Nisa’ : 12",
+               "bagian" : "1/2",
+               "syarat" : "Suami akan mendapatkan harta 1/2 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu",
+               "dalilLengkap" : "2",
+               "isiDalil" : "Dan bagimu (suami) seperdua dari harta yang ditinggalkan oleh istri-istrimu, jika mereka tidak mempunyai anak. ..."
+               } , {
+               "tag" : "21",
+               "ahliWaris" : "Suami",
+               "sumberDalil" : "QS. An-Nisa’ : 12",
+               "bagian" : "1/4",
+               "syarat" : "Suami akan mendapatkan harta 1/4 bagian dengan syarat sebagai berikut: - Pewaris memiliki anak atau cucu",
+               "dalilLengkap" : "2",
+               "isiDalil" : "... Jika istri-istrimu itu mempunyai anak, maka kamu mendapat seperempat dari harta yang ditinggalkannya ..."
+               } , {
+               "tag" : "22",
+               "ahliWaris" : "Istri",
+               "sumberDalil" : "QS. An-Nisa’ : 12",
+               "bagian" : "1/4",
+               "syarat" : "Istri akan mendapatkan harta 1/4 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu",
+               "dalilLengkap" : "2",
+               "isiDalil" : "... Para istri memperoleh seperempat harta yang kamu tinggalkan jika kamu tidak mempunyai anak ..."
+               } , {
+               "tag" : "23",
+               "ahliWaris" : "Istri",
+               "sumberDalil" : "QS. An-Nisa’ : 12",
+               "bagian" : "1/8",
+               "syarat" : "Istri akan mendapatkan harta 1/8 bagian dengan syarat sebagai berikut: - Pewaris memiliki anak atau cucu",
+               "dalilLengkap" : "2",
+               "isiDalil" : "... Jika kamu mempunyai anak, maka para istri memperoleh seperdelapan dari harta yang kamu tinggalkan ..."
+               } , {
+               "tag" : "24",
+               "ahliWaris" : "Saudara Seibu",
+               "sumberDalil" : "QS. An-Nisa’ : 12",
+               "bagian" : "1/6",
+               "syarat" : "Saudara Seibu, baik Laki-Laki maupun Perempuan, akan mendapatkan harta 1/6 bagian dengan syarat sebagai berikut: - Pewaris memiliki satu Saudara Seibu saja",
+               "dalilLengkap" : "2",
+               "isiDalil" : "... Jika seseorang mati, baik laki-laki maupun perempuan, tidak meninggalkan ayah dan anak, tetapi memiliki saudara laki-laki seibu atau perempuan seibu, maka dia mendapatkan seperenam harta, ..."
+               } , {
+               "tag" : "25",
+               "ahliWaris" : "Saudara Seibu",
+               "sumberDalil" : "QS. An-Nisa’ : 12",
+               "bagian" : "1/3",
+               "syarat" : "Saudara Seibu, baik Laki-Laki maupun Perempuan, akan mendapatkan harta 1/3 bagian dengan syarat sebagai berikut: - Pewaris memiliki lebih dari satu Saudara Seibu. - Harta dibagikan ke semua Saudara Seibu sama rata",
+               "dalilLengkap" : "2",
+               "isiDalil" : "... Tetapi jika saudara seibu itu lebih dari satu orang, mereka bersekutu dalam (mendapatkan bagian) sepertiga ..."
+               } , {
+               "tag" : "26",
+               "ahliWaris" : "Saudara Kandung Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "1/2",
+               "syarat" : "Saudara Kandung Perempuan akan mendapatkan harta 1/2 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu. - Tidak ada Saudara Kandung Laki-Laki. -  Saudara Kandung Perempuan hanya ada satu orang",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... Jika seseorang meninggal dan tidak memiliki anak dan (tetapi) memiliki saudara perempuan, maka bagi saudara perempuan setengah harta ..."
+               } , {
+               "tag" : "27",
+               "ahliWaris" : "Saudara Kandung Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "2/3",
+               "syarat" : "Saudara Kandung Perempuan akan mendapatkan harta 2/3 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu. - Tidak ada Saudara Kandung Laki-Laki. - Saudara Kandung Perempuan ada lebih dari satu",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... jika saudara perempuan tersebut ada dua orang (atau lebih), maka baginya dua pertiga dari harta yang ditinggalkan ..."
+               } , {
+               "tag" : "28",
+               "ahliWaris" : "Saudara Kandung Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "Ashabah (bil Ghair)",
+               "syarat" : "Saudara Kandung Perempuan akan menerima harta warisan secara Ashabah (bil Ghair) dengan syarat sebagai berikut: - Pewaris memiliki Saudara Kandung Laki-Laki. - Harta dibagikan dengan ketentuan satu bagian laki-laki sama dengan dua bagian perempuan.",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... jika mereka Saudara Laki-laki dan Perempuan, maka bagian seorang saudara laki-laki sebanyak dua bagian Saudara Perempuan ..."
+               } , {
+               "tag" : "29",
+               "ahliWaris" : "Saudara Kandung Perempuan",
+               "sumberDalil" : "HR. Bukhari no. 6245",
+               "bagian" : "Ashabah (Ma'al Ghair)",
+               "syarat" : "Saudara Kandung Perempuan akan menerima harta warisan secara Ashabah Ma'al Ghair dengan syarat sebagai berikut: - Pewaris tidak memiliki Saudara Kandung Laki-Laki. - Pewaris memiliki Anak Perempuan atau Cucu Perempuan.",
+               "dalilLengkap" : "5",
+               "isiDalil" : "...bagi anak perempuan separo (1/2) harta, dan bagi cucu perempuan mendapat seperenam (1/6) sebagai pelengkap 2/3, dan sisanya untuk saudara perempuan pewaris."
+               } , {
+               "tag" : "30",
+               "ahliWaris" : "Saudara Kandung Laki-laki",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "Ashabah",
+               "syarat" : "Saudara Kandung Laki-Laki akan menerima harta warisan sebagai seorang Ashabah, dan akan membuat Saudara Kandung Perempuan menerima harta warisan secara Ashabah sebagai Ashabah bil Ghair, jika ada",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... jika mereka Saudara Laki-laki dan Perempuan, maka bagian seorang saudara laki-laki sebanyak dua bagian Saudara Perempuan ..."
+               } , {
+               "tag" : "31",
+               "ahliWaris" : "Saudara Seayah Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "1/2",
+               "syarat" : "Saudara Seayah Perempuan akan mendapatkan harta 1/2 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu. - Tidak ada Saudara Seayah Laki-Laki. -  Saudara Seayah Perempuan hanya ada satu orang. - Pewaris tidak memiliki Saudara Kandung",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... Jika seseorang meninggal dan tidak memiliki anak dan (tetapi) memiliki saudara perempuan, maka bagi saudara perempuan setengah harta ..."
+               } , {
+               "tag" : "32",
+               "ahliWaris" : "Saudara Seayah Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "2/3",
+               "syarat" : "Saudara Seayah Perempuan akan mendapatkan harta 2/3 bagian dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu. - Tidak ada Saudara Seayah Laki-Laki. - Saudara Seayah Perempuan ada lebih dari satu. - Pewaris tidak memiliki Saudara Kandung",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... jika saudara perempuan tersebut ada dua orang (atau lebih), maka baginya dua pertiga dari harta yang ditinggalkan ..."
+               } , {
+               "tag" : "33",
+               "ahliWaris" : "Saudara Seayah Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "1/6",
+               "syarat" : "Sama seperti Cucu Perempuan yang mendapatkan 1/6 sebagai pelengkap Anak Perempuan, Saudara Seayah Perempuan akan mendapatkan harta 1/6 bagian sebagai pelengkap 2/3 bagian Saudara Perempuan dengan syarat sebagai berikut: - Pewaris tidak memiliki anak atau cucu. - Tidak ada Saudara Seayah Laki-Laki. - Pewaris memiliki satu saja Saudara Kandung Perempuan",
+               "dalilLengkap" : "3",
+               "isiDalil" : "...bagi anak perempuan separo (1/2) harta, dan bagi cucu perempuan mendapat seperenam (1/6) sebagai pelengkap 2/3,..."
+               } ,{
+               "tag" : "34",
+               "ahliWaris" : "Saudara Seayah Perempuan",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "Ashabah (bil Ghair)",
+               "syarat" : "Saudara Seayah Perempuan akan menerima harta warisan secara Ashabah (bil Ghair) dengan syarat sebagai berikut: - Pewaris memiliki Saudara Seayah Laki-Laki. - Harta dibagikan dengan ketentuan satu bagian laki-laki sama dengan dua bagian perempuan.",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... jika mereka Saudara Laki-laki dan Perempuan, maka bagian seorang saudara laki-laki sebanyak dua bagian Saudara Perempuan ..."
+               } , {
+               "tag" : "35",
+               "ahliWaris" : "Saudara Seayah Perempuan",
+               "sumberDalil" : "HR. Bukhari no. 6245",
+               "bagian" : "Ashabah (Ma'al Ghair)",
+               "syarat" : "Saudara Seayah Perempuan akan menerima harta warisan secara Ashabah Ma'al Ghair dengan syarat sebagai berikut: - Pewaris tidak memiliki Saudara Seayah Laki-Laki. - Pewaris memiliki Anak Perempuan atau Cucu Perempuan.",
+               "dalilLengkap" : "5",
+               "isiDalil" : "...bagi anak perempuan separo (1/2) harta, dan bagi cucu perempuan mendapat seperenam (1/6) sebagai pelengkap 2/3, dan sisanya untuk saudara perempuan pewaris."
+               } , {
+               "tag" : "36",
+               "ahliWaris" : "Saudara Seayah Laki-laki",
+               "sumberDalil" : "QS. An-Nisa’ : 176",
+               "bagian" : "Ashabah",
+               "syarat" : "Saudara Seayah Laki-Laki akan menerima harta warisan sebagai seorang Ashabah, dan akan membuat Saudara Seayah Perempuan menerima harta warisan secara Ashabah sebagai Ashabah bil Ghair, jika ada",
+               "dalilLengkap" : "3",
+               "isiDalil" : "... jika mereka Saudara Laki-laki dan Perempuan, maka bagian seorang saudara laki-laki sebanyak dua bagian Saudara Perempuan ..."
+               } , {
+               "tag" : "37",
+               "ahliWaris" : "Anak Laki-Laki dari Saudara Kandung Laki-Laki",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Anak Laki-Laki dari Saudara Kandung Laki-Laki akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya terhadap pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               } ,{
+               "tag" : "38",
+               "ahliWaris" : "Anak Laki-Laki dari Saudara Seayah Laki-Laki",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Anak Laki-Laki dari Saudara Seayah Laki-Laki akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya terhadap pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               } , {
+               "tag" : "39",
+               "ahliWaris" : "Paman Kandung",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Paman Kandung akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya dari pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               } ,{
+               "tag" : "40",
+               "ahliWaris" : "Paman Sekakek",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Paman Sekakek akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya dari pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               } ,{
+               "tag" : "41",
+               "ahliWaris" : "Anak Laki-Laki Paman Kandung",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Anak Laki-Laki Paman Kandung akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya dari pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               } ,{
+               "tag" : "42",
+               "ahliWaris" : "Anak Laki-Laki Paman Sekakek",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Anak Laki-Laki Paman Sekakek akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya dari pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               }, {
+               "tag" : "43",
+               "ahliWaris" : "Anak Laki-laki",
+               "bagian" : "Ashabah",
+               "syarat" : "Anak Laki-Laki, akan menerima harta warisan sebagai seorang Ashabah, dan akan membuat Anak Perempuan menerima harta warisan secara Ashabah sebagai Ashabah bil Ghair, jika ada",
+               "sumberDalil" : "HR. Bukhari no. 724",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               }, {
+               "tag" : "44",
+               "ahliWaris" : "Cucu Laki-laki",
+               "bagian" : "Ashabah",
+               "syarat" : "Cucu Laki-Laki, akan menerima harta warisan sebagai seorang Ashabah, dan akan membuat Cucu Perempuan menerima harta warisan secara Ashabah sebagai Ashabah bil Ghair, jika ada",
+               "sumberDalil" : "HR. Bukhari no. 724",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               },{
+               "tag" : "45",
+               "ahliWaris" : "Ibu",
+               "sumberDalil" : "QS. An-Nisa’ : 11",
+               "bagian" : "1/6",
+               "syarat" : "Ibu akan menerima harta 1/6 bagian dengan syarat sebagai berikut: - Pewaris memiliki anak atau cucu, baik laki-laki maupun perempuan. - Pewaris memiliki total lebih dari satu saudara, baik Saudara Kandung, Saudara Seayah, maupun Saudara Seibu.",
+               "dalilLengkap" : "1",
+               "isiDalil" : "... jika yang meninggal itu mempunyai beberapa saudara, maka ibunya mendapat seperenam, ..."
+               }, {
+               "tag" : "46",
+               "ahliWaris" : "Saudara Kandung Laki-Laki",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Saudara Kandung Laki-Laki akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya terhadap pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               }, {
+               "tag" : "47",
+               "ahliWaris" : "Saudara Seayah Laki-Laki",
+               "sumberDalil" : "HR. Bukhari no. 6238",
+               "bagian" : "Ashabah",
+               "syarat" : "Saudara Seayah Laki-Laki akan menerima harta sebagai Ashabah dengan syarat: - Tidak ada Ashabah lain yang lebih tinggi kedudukannya terhadap pewaris",
+               "dalilLengkap" : "6",
+               "isiDalil" : "...Bagikanlah harta peninggalan (warisan) kepada yang berhak, dan apa yang tersisa menjadi hak laki-laki yang paling utama ..."
+               }]
+}
+

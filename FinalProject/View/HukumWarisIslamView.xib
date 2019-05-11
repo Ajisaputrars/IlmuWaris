@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailIlmuWarisViewController" customModule="FinalProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="jhR-Ax-Yrh"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="680"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54g-og-NMO">
+                    <rect key="frame" x="0.0" y="20" width="320" height="660"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xGN-Jn-Skc" userLabel="ContentView">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="634.5"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hukum Waris Islam" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nv-Nx-0fc">
+                                    <rect key="frame" x="75.5" y="8" width="170" height="23"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMg-vR-7gB">
+                                    <rect key="frame" x="16" y="65" width="296" height="57.5"/>
+                                    <string key="text">Ilmu waris Islam, atau yang dikenal juga dengan Ilmu Faraidh adalah ilmu yang membahas masalah pembagian harta warisan yang sesuai dengan syariat Islam.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sumber dasar dari ilmu waris dalam Islam ini adalah Al-Qur'an, Hadits, dan Ijtima Ulama. " textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wq8-jL-qOl">
+                                    <rect key="frame" x="16" y="195.5" width="288" height="29"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bAM-73-8eW">
+                                    <rect key="frame" x="16" y="320.5" width="288" height="57.5"/>
+                                    <string key="text">“Pelajarilah ilmu faraid serta ajarkanlah kepada orang lain, karena sesungguhnya, ilmu faraid setengahnya ilmu; ia akan dilupakan, dan ia ilmu pertama yang akan diangkat dari umatku.”</string>
+                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="9p2-6R-7MS">
+                                    <rect key="frame" x="16" y="36" width="296" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="WMu-t1-gqo">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="QGs-eU-VUt"/>
+                                                <constraint firstAttribute="height" constant="29" id="s1D-k9-OJV"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ilmu Waris Dalam Islam" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nAr-Va-aR9">
+                                            <rect key="frame" x="38" y="0.0" width="258" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Di bawah ini adalah beberapa dari hadits yang menjelaskan beberapa keutamaan mempelajari dan mengajarkan ilmu waris:" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZBP-lc-xeg">
+                                    <rect key="frame" x="16" y="269.5" width="288" height="43"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(HR Ibnu Majah)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IKJ-fe-gmu">
+                                    <rect key="frame" x="16" y="381" width="288" height="14.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Nlt-th-Z0y">
+                                    <rect key="frame" x="16" y="240.5" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="ESY-lF-Wno">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="BkR-1Y-tDa"/>
+                                                <constraint firstAttribute="width" constant="29" id="w3F-K3-6JB"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Keutamaan Ilmu Waris" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Awx-BP-8tK">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8VG-mg-6ja">
+                                    <rect key="frame" x="16" y="130" width="288" height="57.5"/>
+                                    <string key="text">Kata "Faraidh" sendiri adalah bentuk jamak dari Al-Faridhah yang artinya sesuatu yang diwajibkan, atau pembagian yang telah ditentukan sesuai dengan kadarnya masing-masing.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0un-Ql-Erx">
+                                    <rect key="frame" x="16" y="403" width="288" height="57.5"/>
+                                    <string key="text">“Ilmu itu ada tiga, selain yang tiga hanya bersifat tambahan, yaitu ayat-ayat muhakkamah (yang jelas ketentuannya), sunnah Nabi Shallallahu ‘Alaihi wa Sallam yang dilaksanakan, dan ilmu faraid.”</string>
+                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(HR Ibnu Majah)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pcm-FL-b0a">
+                                    <rect key="frame" x="16" y="463.5" width="288" height="14.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JtX-bD-n9I">
+                                    <rect key="frame" x="16" y="486" width="288" height="115"/>
+                                    <string key="text">“Pelajarilah ilmu faraid serta ajarkanlah kepada orang-orang, karena aku adalah orang yang akan direnggut (wafat), sedang ilmu itu akan diangkat dan fitnah akan tampak, sehingga dua orang yang bertengkar tentang pembagian warisan, mereka berdua tidak menemukan seorang pun yang sanggup meleraikan (menyelesaikan perselisihan pembagian hak waris) mereka.”</string>
+                                    <fontDescription key="fontDescription" type="italicSystem" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(HR Imam Ahmad, At-Tirmidzi, dan Al-Hakim)" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aWz-Wz-2k5">
+                                    <rect key="frame" x="16" y="604" width="288" height="14.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="9p2-6R-7MS" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="364-bm-g5t"/>
+                                <constraint firstAttribute="trailing" secondItem="aWz-Wz-2k5" secondAttribute="trailing" constant="16" id="38A-aU-xod"/>
+                                <constraint firstItem="8VG-mg-6ja" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="5XG-Z1-B4k"/>
+                                <constraint firstItem="JtX-bD-n9I" firstAttribute="top" secondItem="Pcm-FL-b0a" secondAttribute="bottom" constant="8" id="6mb-Ya-2aV"/>
+                                <constraint firstItem="Nlt-th-Z0y" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="6zG-M2-y5e"/>
+                                <constraint firstItem="IKJ-fe-gmu" firstAttribute="top" secondItem="bAM-73-8eW" secondAttribute="bottom" constant="3" id="7HG-ox-xIX"/>
+                                <constraint firstAttribute="trailing" secondItem="bAM-73-8eW" secondAttribute="trailing" constant="16" id="7Zd-KR-ZVE"/>
+                                <constraint firstItem="Nlt-th-Z0y" firstAttribute="top" secondItem="wq8-jL-qOl" secondAttribute="bottom" constant="16" id="8Md-Vr-eTb"/>
+                                <constraint firstItem="9p2-6R-7MS" firstAttribute="top" secondItem="9nv-Nx-0fc" secondAttribute="bottom" constant="5" id="A0o-7l-zMI"/>
+                                <constraint firstAttribute="bottom" secondItem="aWz-Wz-2k5" secondAttribute="bottom" constant="16" id="Bao-wg-phV"/>
+                                <constraint firstItem="0un-Ql-Erx" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="GSA-k8-gJL"/>
+                                <constraint firstAttribute="trailing" secondItem="Nlt-th-Z0y" secondAttribute="trailing" constant="16" id="Hzr-KZ-NKO"/>
+                                <constraint firstAttribute="trailing" secondItem="8VG-mg-6ja" secondAttribute="trailing" constant="16" id="JfT-30-bGt"/>
+                                <constraint firstItem="ZBP-lc-xeg" firstAttribute="top" secondItem="Nlt-th-Z0y" secondAttribute="bottom" id="Ldk-Ht-Drw"/>
+                                <constraint firstItem="ZBP-lc-xeg" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="ObW-xj-gGf"/>
+                                <constraint firstItem="8VG-mg-6ja" firstAttribute="top" secondItem="tMg-vR-7gB" secondAttribute="bottom" constant="8" id="OmU-CT-YUU"/>
+                                <constraint firstItem="wq8-jL-qOl" firstAttribute="top" secondItem="8VG-mg-6ja" secondAttribute="bottom" constant="8" id="SnQ-3u-k2t"/>
+                                <constraint firstItem="bAM-73-8eW" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="THK-un-3XC"/>
+                                <constraint firstAttribute="trailing" secondItem="JtX-bD-n9I" secondAttribute="trailing" constant="16" id="XNj-vR-7Ef"/>
+                                <constraint firstAttribute="trailing" secondItem="9p2-6R-7MS" secondAttribute="trailing" constant="8" id="XsM-7A-VNC"/>
+                                <constraint firstAttribute="trailing" secondItem="Pcm-FL-b0a" secondAttribute="trailing" constant="16" id="ZVT-Kv-vx4"/>
+                                <constraint firstItem="9nv-Nx-0fc" firstAttribute="top" secondItem="xGN-Jn-Skc" secondAttribute="top" constant="8" id="b64-Cw-APL"/>
+                                <constraint firstAttribute="trailing" secondItem="tMg-vR-7gB" secondAttribute="trailing" constant="8" id="cyg-aY-DrU"/>
+                                <constraint firstItem="0un-Ql-Erx" firstAttribute="top" secondItem="IKJ-fe-gmu" secondAttribute="bottom" constant="8" id="dyt-EP-wrw"/>
+                                <constraint firstItem="Pcm-FL-b0a" firstAttribute="top" secondItem="0un-Ql-Erx" secondAttribute="bottom" constant="3" id="eDH-51-DYo"/>
+                                <constraint firstItem="JtX-bD-n9I" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="gV5-b7-NHi"/>
+                                <constraint firstItem="aWz-Wz-2k5" firstAttribute="top" secondItem="JtX-bD-n9I" secondAttribute="bottom" constant="3" id="hnb-z4-gxO"/>
+                                <constraint firstAttribute="trailing" secondItem="wq8-jL-qOl" secondAttribute="trailing" constant="16" id="iWN-fh-Ydl"/>
+                                <constraint firstItem="bAM-73-8eW" firstAttribute="top" secondItem="ZBP-lc-xeg" secondAttribute="bottom" constant="8" id="mJr-Ve-ydL"/>
+                                <constraint firstAttribute="trailing" secondItem="IKJ-fe-gmu" secondAttribute="trailing" constant="16" id="n10-A9-HIG"/>
+                                <constraint firstItem="tMg-vR-7gB" firstAttribute="top" secondItem="9p2-6R-7MS" secondAttribute="bottom" id="nya-BV-OSI"/>
+                                <constraint firstItem="IKJ-fe-gmu" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="pCT-Ua-O8q"/>
+                                <constraint firstItem="9nv-Nx-0fc" firstAttribute="centerX" secondItem="xGN-Jn-Skc" secondAttribute="centerX" id="rW1-wf-bYV"/>
+                                <constraint firstItem="ZBP-lc-xeg" firstAttribute="top" secondItem="Nlt-th-Z0y" secondAttribute="bottom" id="tSE-2n-ydY"/>
+                                <constraint firstItem="tMg-vR-7gB" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="twO-zB-uFy"/>
+                                <constraint firstItem="Pcm-FL-b0a" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="uE2-Es-USI"/>
+                                <constraint firstAttribute="trailing" secondItem="0un-Ql-Erx" secondAttribute="trailing" constant="16" id="uQm-Rd-6ib"/>
+                                <constraint firstItem="aWz-Wz-2k5" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="vT8-Ci-K6E"/>
+                                <constraint firstItem="wq8-jL-qOl" firstAttribute="leading" secondItem="xGN-Jn-Skc" secondAttribute="leading" constant="16" id="xMJ-sc-cIj"/>
+                                <constraint firstAttribute="trailing" secondItem="ZBP-lc-xeg" secondAttribute="trailing" constant="16" id="yqg-w9-n6s"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="xGN-Jn-Skc" firstAttribute="height" secondItem="54g-og-NMO" secondAttribute="height" priority="250" id="GRc-vO-u3k"/>
+                        <constraint firstItem="xGN-Jn-Skc" firstAttribute="top" secondItem="54g-og-NMO" secondAttribute="top" id="aO5-h7-pDf"/>
+                        <constraint firstItem="xGN-Jn-Skc" firstAttribute="leading" secondItem="54g-og-NMO" secondAttribute="leading" id="gVs-ZU-Ceg"/>
+                        <constraint firstItem="xGN-Jn-Skc" firstAttribute="width" secondItem="54g-og-NMO" secondAttribute="width" id="uEb-JX-euz"/>
+                        <constraint firstAttribute="bottom" secondItem="xGN-Jn-Skc" secondAttribute="bottom" id="xI1-Do-AEr"/>
+                        <constraint firstAttribute="trailing" secondItem="xGN-Jn-Skc" secondAttribute="trailing" id="xby-dh-Rpr"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="54g-og-NMO" secondAttribute="bottom" id="dun-yi-HgV"/>
+                <constraint firstItem="54g-og-NMO" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="eev-34-cfD"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="54g-og-NMO" secondAttribute="trailing" id="nkd-Ap-esE"/>
+                <constraint firstItem="54g-og-NMO" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="skC-Vy-ZwU"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-92" y="423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Book" width="167" height="167"/>
+    </resources>
+</document>

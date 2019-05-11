@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailIlmuWarisViewController" customModule="FinalProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="X3a-dt-1pz"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="782"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5x5-XY-5rB">
+                    <rect key="frame" x="0.0" y="20" width="320" height="762"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wpb-0v-8zW">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="737"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="pXQ-PP-qOQ">
+                                    <rect key="frame" x="16" y="36.5" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="b6p-aK-hTr">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="27g-Rt-5AU"/>
+                                                <constraint firstAttribute="width" constant="29" id="mTJ-or-ggU"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masalah Dalam Pembagian Harta" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AXE-IG-Vwl">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yi6-SI-4BU">
+                                    <rect key="frame" x="16" y="65.5" width="288" height="93.5"/>
+                                    <string key="text">Meskipun masing-masing dari ahli waris sudah diketahui kadar bagiannya, namun total bagian tidak selalu tepat satu. Jika ahli waris terlalu sedikit, total bagian kurang dari satu, dan jika ahli waris terlalu banyak, total bagian lebih dari satu.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Masalah Aul dan Radd" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wtG-ph-UEI">
+                                    <rect key="frame" x="16" y="8" width="288" height="20.5"/>
+                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="AQD-QL-rmI">
+                                    <rect key="frame" x="16" y="167" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="vVJ-bq-K4I">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="G0p-qd-k8X"/>
+                                                <constraint firstAttribute="height" constant="29" id="UWK-7Y-viT"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al-Aul" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rBn-HH-OHI">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrQ-x7-DDB">
+                                    <rect key="frame" x="16" y="196" width="288" height="93.5"/>
+                                    <string key="text">Al-Aul adalah kondisi di mana total bagian dari seluruh kadar bagian ahli waris lebih dari satu. Hal ini menyebabkan pokok masalah menjadi naik dan kadar bagian dari semua ahli waris harus diturunkan. Jika ada Ashabah, maka tidak ada harta tersisa untuk Ashabah</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Y6T-SR-F8y">
+                                    <rect key="frame" x="16" y="297" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="7BD-1R-Cyc">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="29" id="I1I-Ej-FBW"/>
+                                                <constraint firstAttribute="width" constant="29" id="lPO-tb-aLK"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ar-Radd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwc-9n-NEh">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Yl-7H-Xxb">
+                                    <rect key="frame" x="16" y="326" width="288" height="124.5"/>
+                                    <string key="text">Ar-Radd adalah kondisi di mana total bagian dari seluruh kadar bagian ahli waris kurang dari satu. Hal ini menyebabkan adanya harta sisa dan harus dikembalikan ke seluruh ahli waris dengan cara menaikkan kadar bagian dari setiap ahli waris. Ar-Radd tidak akan terjadi jika ada Ashabah karena harta sisa akan diambil Ashabah seluruhnya.</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="sVL-6L-Cn1">
+                                    <rect key="frame" x="16" y="458" width="288" height="29"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Book" translatesAutoresizingMaskIntoConstraints="NO" id="1n6-0f-lwQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="29" height="29"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="29" id="5y0-kP-wtT"/>
+                                                <constraint firstAttribute="height" constant="29" id="NIr-4i-O3U"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Solusi Masalah Aul dan Radd" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTy-FQ-XkX">
+                                            <rect key="frame" x="38" y="0.0" width="250" height="29"/>
+                                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RrQ-Uv-Ty8">
+                                    <rect key="frame" x="16" y="487" width="288" height="62.5"/>
+                                    <string key="text">Dengan sudah diketahuinya total bagian dari seluruh kadar bagian masing-masing ahli waris, maka kadar bagian masing-masing dari ahli waris yang baru adalah sebagai berikut:</string>
+                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AulRadd2" translatesAutoresizingMaskIntoConstraints="NO" id="bqA-OV-bye">
+                                    <rect key="frame" x="110" y="557" width="100" height="70"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="Cnu-zS-Ngr"/>
+                                        <constraint firstAttribute="height" constant="70" id="nsP-eB-eGq"/>
+                                    </constraints>
+                                </imageView>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ho8-xB-mM9">
+                                    <rect key="frame" x="16" y="669" width="288" height="20"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xo" translatesAutoresizingMaskIntoConstraints="NO" id="q5k-nw-aH9">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="ZBW-CF-VWA"/>
+                                                <constraint firstAttribute="height" constant="20" id="l61-ul-OhP"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= pembilang kadar bagian lama" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSh-fy-wZw">
+                                            <rect key="frame" x="20" y="0.0" width="268" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H0A-B2-yfz">
+                                    <rect key="frame" x="16" y="649" width="288" height="20"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yi" translatesAutoresizingMaskIntoConstraints="NO" id="WMi-ti-M3P">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="ig4-J3-Fxj"/>
+                                                <constraint firstAttribute="width" constant="20" id="qHi-f5-ioD"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= penyebut kadar bagian baru" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y91-N6-mSf">
+                                            <rect key="frame" x="20" y="0.0" width="268" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5hF-Wb-Vex">
+                                    <rect key="frame" x="16" y="629" width="288" height="20"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xi" translatesAutoresizingMaskIntoConstraints="NO" id="mcm-Z2-q59">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="oOJ-qT-hKb"/>
+                                                <constraint firstAttribute="width" constant="20" id="w3t-eL-diD"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= pembilang kadar bagian baru" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sy5-kg-7M2">
+                                            <rect key="frame" x="20" y="0.0" width="268" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HdE-zm-lcZ">
+                                    <rect key="frame" x="16" y="709" width="288" height="20"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tx" translatesAutoresizingMaskIntoConstraints="NO" id="lrJ-up-hUX">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="20" id="2Rw-dc-tmu"/>
+                                                <constraint firstAttribute="width" constant="20" id="mLy-7M-Tol"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= total bagian" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhb-TI-JXW">
+                                            <rect key="frame" x="20" y="0.0" width="268" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fFZ-8a-YpW">
+                                    <rect key="frame" x="16" y="689" width="288" height="20"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yo" translatesAutoresizingMaskIntoConstraints="NO" id="t61-f7-z98">
+                                            <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="20" id="GcA-39-acO"/>
+                                                <constraint firstAttribute="height" constant="20" id="LZo-xF-EIm"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="= penyebut kadar bagian lama" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsS-Lq-BpK">
+                                            <rect key="frame" x="20" y="0.0" width="268" height="20"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="5hF-Wb-Vex" secondAttribute="trailing" constant="16" id="3qu-eU-Eju"/>
+                                <constraint firstAttribute="trailing" secondItem="WrQ-x7-DDB" secondAttribute="trailing" constant="16" id="46U-aq-grj"/>
+                                <constraint firstItem="fFZ-8a-YpW" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="4Yf-K1-Pl9"/>
+                                <constraint firstItem="yi6-SI-4BU" firstAttribute="top" secondItem="pXQ-PP-qOQ" secondAttribute="bottom" id="5WJ-5R-PgI"/>
+                                <constraint firstItem="HdE-zm-lcZ" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="5jB-Ke-lhh"/>
+                                <constraint firstAttribute="trailing" secondItem="RrQ-Uv-Ty8" secondAttribute="trailing" constant="16" id="6jZ-Zk-8Z2"/>
+                                <constraint firstAttribute="trailing" secondItem="H0A-B2-yfz" secondAttribute="trailing" constant="16" id="6s1-hD-m7y"/>
+                                <constraint firstItem="pXQ-PP-qOQ" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="86R-k3-bkT"/>
+                                <constraint firstItem="9Yl-7H-Xxb" firstAttribute="top" secondItem="Y6T-SR-F8y" secondAttribute="bottom" id="8M4-g2-n2s"/>
+                                <constraint firstItem="HdE-zm-lcZ" firstAttribute="top" secondItem="fFZ-8a-YpW" secondAttribute="bottom" id="97k-N6-2us"/>
+                                <constraint firstItem="wtG-ph-UEI" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="9Ph-od-33H"/>
+                                <constraint firstItem="fFZ-8a-YpW" firstAttribute="top" secondItem="Ho8-xB-mM9" secondAttribute="bottom" id="9TC-yA-2Ra"/>
+                                <constraint firstItem="AQD-QL-rmI" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="ALG-Bu-BTo"/>
+                                <constraint firstAttribute="trailing" secondItem="yi6-SI-4BU" secondAttribute="trailing" constant="16" id="E87-6F-Nfd"/>
+                                <constraint firstAttribute="trailing" secondItem="AQD-QL-rmI" secondAttribute="trailing" constant="16" id="Ean-Z2-Jb7"/>
+                                <constraint firstItem="bqA-OV-bye" firstAttribute="top" secondItem="RrQ-Uv-Ty8" secondAttribute="bottom" constant="8" id="EyH-RU-Axl"/>
+                                <constraint firstItem="RrQ-Uv-Ty8" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="FID-M2-zVD"/>
+                                <constraint firstItem="Y6T-SR-F8y" firstAttribute="top" secondItem="WrQ-x7-DDB" secondAttribute="bottom" constant="8" id="G08-o3-NM7"/>
+                                <constraint firstItem="9Yl-7H-Xxb" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="GBJ-8R-jdd"/>
+                                <constraint firstItem="RrQ-Uv-Ty8" firstAttribute="top" secondItem="sVL-6L-Cn1" secondAttribute="bottom" id="Hsb-DG-TcQ"/>
+                                <constraint firstItem="sVL-6L-Cn1" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="Iwi-Vc-6Te"/>
+                                <constraint firstItem="RrQ-Uv-Ty8" firstAttribute="top" secondItem="sVL-6L-Cn1" secondAttribute="bottom" id="NRq-eS-72l"/>
+                                <constraint firstItem="AQD-QL-rmI" firstAttribute="top" secondItem="yi6-SI-4BU" secondAttribute="bottom" constant="8" id="PVx-7q-bkt"/>
+                                <constraint firstAttribute="trailing" secondItem="fFZ-8a-YpW" secondAttribute="trailing" constant="16" id="PWZ-BV-Hty"/>
+                                <constraint firstItem="yi6-SI-4BU" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="TSo-7i-YGK"/>
+                                <constraint firstAttribute="trailing" secondItem="Y6T-SR-F8y" secondAttribute="trailing" constant="16" id="WIp-DB-3wa"/>
+                                <constraint firstItem="Y6T-SR-F8y" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="Wsk-tL-4NT"/>
+                                <constraint firstItem="bqA-OV-bye" firstAttribute="centerX" secondItem="wpb-0v-8zW" secondAttribute="centerX" id="Yax-fs-jIO"/>
+                                <constraint firstItem="Ho8-xB-mM9" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="bsF-ac-npf"/>
+                                <constraint firstItem="sVL-6L-Cn1" firstAttribute="top" secondItem="9Yl-7H-Xxb" secondAttribute="bottom" constant="8" id="cSP-kX-8RG"/>
+                                <constraint firstItem="wtG-ph-UEI" firstAttribute="top" secondItem="wpb-0v-8zW" secondAttribute="top" constant="8" id="cdG-uX-akM"/>
+                                <constraint firstItem="Ho8-xB-mM9" firstAttribute="top" secondItem="H0A-B2-yfz" secondAttribute="bottom" id="dMR-ws-ekb"/>
+                                <constraint firstAttribute="trailing" secondItem="9Yl-7H-Xxb" secondAttribute="trailing" constant="16" id="eBl-PC-Iyg"/>
+                                <constraint firstItem="pXQ-PP-qOQ" firstAttribute="top" secondItem="wtG-ph-UEI" secondAttribute="bottom" constant="8" id="fZV-Te-j2a"/>
+                                <constraint firstItem="RrQ-Uv-Ty8" firstAttribute="top" secondItem="sVL-6L-Cn1" secondAttribute="bottom" id="g5c-I0-WQx"/>
+                                <constraint firstItem="WrQ-x7-DDB" firstAttribute="top" secondItem="AQD-QL-rmI" secondAttribute="bottom" id="hhz-UG-VgO"/>
+                                <constraint firstAttribute="trailing" secondItem="sVL-6L-Cn1" secondAttribute="trailing" constant="16" id="jf0-im-vtR"/>
+                                <constraint firstItem="9Yl-7H-Xxb" firstAttribute="top" secondItem="Y6T-SR-F8y" secondAttribute="bottom" id="jlB-wX-87b"/>
+                                <constraint firstAttribute="trailing" secondItem="HdE-zm-lcZ" secondAttribute="trailing" constant="16" id="lyv-o3-4ow"/>
+                                <constraint firstAttribute="trailing" secondItem="wtG-ph-UEI" secondAttribute="trailing" constant="16" id="oQ1-eK-FhM"/>
+                                <constraint firstAttribute="trailing" secondItem="pXQ-PP-qOQ" secondAttribute="trailing" constant="16" id="ph0-Lf-Lyh"/>
+                                <constraint firstItem="5hF-Wb-Vex" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="qDK-zP-vX2"/>
+                                <constraint firstAttribute="trailing" secondItem="Ho8-xB-mM9" secondAttribute="trailing" constant="16" id="qbY-DZ-C4P"/>
+                                <constraint firstItem="H0A-B2-yfz" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="qef-G8-gmL"/>
+                                <constraint firstItem="WrQ-x7-DDB" firstAttribute="leading" secondItem="wpb-0v-8zW" secondAttribute="leading" constant="16" id="uWP-N2-OBx"/>
+                                <constraint firstAttribute="bottom" secondItem="HdE-zm-lcZ" secondAttribute="bottom" constant="8" id="vo7-H3-kCH"/>
+                                <constraint firstItem="5hF-Wb-Vex" firstAttribute="top" secondItem="bqA-OV-bye" secondAttribute="bottom" constant="2" id="yB3-Hj-Y3q"/>
+                                <constraint firstItem="H0A-B2-yfz" firstAttribute="top" secondItem="5hF-Wb-Vex" secondAttribute="bottom" id="yf0-9C-coh"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="wpb-0v-8zW" firstAttribute="top" secondItem="5x5-XY-5rB" secondAttribute="top" id="9hg-9W-keK"/>
+                        <constraint firstItem="wpb-0v-8zW" firstAttribute="leading" secondItem="5x5-XY-5rB" secondAttribute="leading" id="Um5-cz-3Bq"/>
+                        <constraint firstAttribute="trailing" secondItem="wpb-0v-8zW" secondAttribute="trailing" id="Y94-9F-UCp"/>
+                        <constraint firstItem="wpb-0v-8zW" firstAttribute="width" secondItem="5x5-XY-5rB" secondAttribute="width" id="iUf-Kk-Evy"/>
+                        <constraint firstAttribute="bottom" secondItem="wpb-0v-8zW" secondAttribute="bottom" id="kwy-5Q-xjo"/>
+                        <constraint firstItem="wpb-0v-8zW" firstAttribute="height" secondItem="5x5-XY-5rB" secondAttribute="height" priority="250" id="r5f-MP-gkV"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="5x5-XY-5rB" secondAttribute="trailing" id="2DB-ph-ZxL"/>
+                <constraint firstItem="5x5-XY-5rB" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="OdZ-Fy-Vn6"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="5x5-XY-5rB" secondAttribute="bottom" id="SfI-l0-9IC"/>
+                <constraint firstItem="5x5-XY-5rB" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="sA9-zH-isi"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="34" y="384"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AulRadd2" width="442" height="286"/>
+        <image name="Book" width="167" height="167"/>
+        <image name="tx" width="148" height="116"/>
+        <image name="xi" width="146" height="124"/>
+        <image name="xo" width="172" height="128"/>
+        <image name="yi" width="152" height="130"/>
+        <image name="yo" width="168" height="122"/>
+    </resources>
+</document>

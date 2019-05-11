@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailIlmuWarisViewController" customModule="FinalProject" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="Sqf-nw-CzO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CNw-Aj-6JS">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="p6e-bQ-PcQ">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="p6e-bQ-PcQ" firstAttribute="width" secondItem="CNw-Aj-6JS" secondAttribute="width" id="EjZ-16-27F"/>
+                        <constraint firstItem="p6e-bQ-PcQ" firstAttribute="leading" secondItem="CNw-Aj-6JS" secondAttribute="leading" id="TS5-7M-TcG"/>
+                        <constraint firstAttribute="bottom" secondItem="p6e-bQ-PcQ" secondAttribute="bottom" id="UXo-gc-Y5I"/>
+                        <constraint firstAttribute="trailing" secondItem="p6e-bQ-PcQ" secondAttribute="trailing" id="VLI-Ur-2LY"/>
+                        <constraint firstItem="p6e-bQ-PcQ" firstAttribute="top" secondItem="CNw-Aj-6JS" secondAttribute="top" id="WIY-qV-lye"/>
+                        <constraint firstItem="p6e-bQ-PcQ" firstAttribute="height" secondItem="CNw-Aj-6JS" secondAttribute="height" priority="250" id="gad-Mf-ftI"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="CNw-Aj-6JS" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="EOP-Qy-U0n"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="CNw-Aj-6JS" secondAttribute="bottom" id="XaQ-fb-k7X"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="CNw-Aj-6JS" secondAttribute="trailing" id="ird-vY-A8U"/>
+                <constraint firstItem="CNw-Aj-6JS" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="rfy-kM-idE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+</document>

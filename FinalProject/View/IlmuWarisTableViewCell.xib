@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ilmuWarisViewCell" rowHeight="84" id="6Gj-y8-HNo" customClass="IlmuWarisViewCell" customModule="FinalProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Gj-y8-HNo" id="2T4-vQ-ACu">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BookGroupedTransparen2" translatesAutoresizingMaskIntoConstraints="NO" id="a0m-2R-gHH">
+                        <rect key="frame" x="8" y="19.5" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="5XM-d5-tBD"/>
+                            <constraint firstAttribute="width" constant="45" id="6jy-Qg-4y1"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pentashihan Pokok Masalah" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Nl-Ya-g61">
+                        <rect key="frame" x="61" y="5" width="298" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="PS1-Ka-pHw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fkl-x5-DB1">
+                        <rect key="frame" x="61" y="26" width="282" height="13.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wgq-7t-uzp">
+                        <rect key="frame" x="8" y="83" width="367" height="1"/>
+                        <color key="backgroundColor" red="0.063000001010000001" green="0.45899999139999997" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="x6h-ZE-1VX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="fkl-x5-DB1" secondAttribute="trailing" constant="16" id="41E-Tb-DJf"/>
+                    <constraint firstAttribute="trailing" secondItem="Wgq-7t-uzp" secondAttribute="trailing" id="6Mr-Ts-ANn"/>
+                    <constraint firstItem="4Nl-Ya-g61" firstAttribute="top" secondItem="2T4-vQ-ACu" secondAttribute="top" constant="5" id="FsI-WH-dTI"/>
+                    <constraint firstItem="a0m-2R-gHH" firstAttribute="leading" secondItem="2T4-vQ-ACu" secondAttribute="leading" constant="8" id="Tmt-ar-Tz5"/>
+                    <constraint firstItem="Wgq-7t-uzp" firstAttribute="top" relation="greaterThanOrEqual" secondItem="fkl-x5-DB1" secondAttribute="bottom" constant="5" id="Tqm-sP-G3L"/>
+                    <constraint firstItem="4Nl-Ya-g61" firstAttribute="leading" secondItem="a0m-2R-gHH" secondAttribute="trailing" constant="8" id="VWx-XT-Oy9"/>
+                    <constraint firstAttribute="bottom" secondItem="Wgq-7t-uzp" secondAttribute="bottom" id="Wxn-jz-oA8"/>
+                    <constraint firstItem="fkl-x5-DB1" firstAttribute="leading" secondItem="a0m-2R-gHH" secondAttribute="trailing" constant="8" id="YhX-0I-CUO"/>
+                    <constraint firstItem="a0m-2R-gHH" firstAttribute="centerY" secondItem="2T4-vQ-ACu" secondAttribute="centerY" id="a7f-gf-S0O"/>
+                    <constraint firstItem="fkl-x5-DB1" firstAttribute="top" secondItem="4Nl-Ya-g61" secondAttribute="bottom" id="kjC-S5-WZd"/>
+                    <constraint firstAttribute="trailing" secondItem="4Nl-Ya-g61" secondAttribute="trailing" constant="16" id="ou1-g9-13w"/>
+                    <constraint firstItem="Wgq-7t-uzp" firstAttribute="leading" secondItem="2T4-vQ-ACu" secondAttribute="leading" constant="8" id="uFB-0r-HcK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="ilmuWarisDescriptionLabel" destination="fkl-x5-DB1" id="5Kw-i1-3fe"/>
+                <outlet property="ilmuWarisImageView" destination="a0m-2R-gHH" id="jDQ-kY-DlJ"/>
+                <outlet property="ilmuWarisTitleLabel" destination="4Nl-Ya-g61" id="Kap-DS-db1"/>
+            </connections>
+            <point key="canvasLocation" x="41.5" y="61"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="BookGroupedTransparen2" width="143" height="145"/>
+    </resources>
+</document>
