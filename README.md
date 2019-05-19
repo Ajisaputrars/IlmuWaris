@@ -19,15 +19,40 @@ Menu ini memuat semua informasi dalil yang digunakan dalam ilmu waris Islam. Dal
 ### **Hitung Waris**
 Menu ini memuat implementasi ilmu waris Islam untuk menerapkan pembagian harta warisan sesuai dengan syariat Islam. Pertama pengguna diharuskan untuk memasukkan jumlah harta milik pewaris beserta wasiat, hutang, dan pengurusan jenazah, dan selanjutnya memasukkan informasi jenis kelamin pewaris sebelum memulai proses penghitungan.
 
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Pra-Perhitungan.png" width="700" align="center">
+</p>
+
 Ahli waris yang dihitung pertama kali adalah ahli waris di keluarga. Ahli waris ini tidak akan dilewati bagaimanapun keadaannya. Setelah itu, ahli waris berikutnya yang harus dimasukkan adalah ahli waris cabang (Cucu) dan ahli waris pokok (Kakek dan Nenek).
+
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Ahli%20Waris%20Keluarga.png" width="700" align="center">
+</p>
 
 Di banyak kasus, proses penghitungan harta warisan sudah bisa dilakukan di tahap ini. Namun kadang masih ada ahli waris lain yang masih berhak untuk mendapatkan harta warisan. Oleh karena itu, pengguna harus memasukkan informasi berupa saudara pewaris, berupa Saudara Kandung, Saudara Seayah, dan Saudara Seibu.
 
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Ahli%20waris%20saudara.png" width="700" align="center">
+</p>
+
 Jika masih ada ahli waris lain yang sekiranya masih bisa mendapatkan harta warisan sebagai Ashabah, maka pengguna bisa memasukkan informasi berupa Anak Laki-Laki Saudara, Paman, dan Anak Paman.
+
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Ahli%20waris%20kerabat%20laki-laki.png" width="700" align="center">
+</p>
 
 Hasil pembagian harta warisan ditampilkan ke dalam UITableView seperti pada gambar di bawah ini. Halaman ini juga menyajikan informasi berupa harta bersih pewaris, pokok masalah awal, pokok masalah akhir, dan status pembagian. Pada bagian bawah, terdapat tombol Reset untuk memulai pembagian dari awal, Home untuk kembali ke halaman depan aplikasi, dan Info untuk rincian informasi pembagian.
 
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Hasil%20pembagian%20warisan.png" width="700" align="center">
+</p>
+
 Halaman Detail Pembagian akan muncul ketika pengguna memilih tombol Info. Pada halaman ini ditampilkan semua rincian dari pembagian harta warisan yang sedang dilakukan.
+
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/rincian%20pembagian.png" width="700" align="center">
+</p>
+
 
 
 
