@@ -53,6 +53,11 @@ Halaman Detail Pembagian akan muncul ketika pengguna memilih tombol Info. Pada h
   <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/rincian%20pembagian.png" width="300" align="center">
 </p>
 
+Halaman Detail Ahli Waris akan muncul ketika pengguna memilih salah satu ahli waris yang ada pada halaman Hasil Pembagian Warisan. Halaman ini menampilkan rincian pembagian untuk masing-masing ahli waris, dalil yang mengenainya, hingga tombol Info untuk pintasan ke informasi lengkap ahli waris.
+
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/rincian%20ahli%20waris.png" width="300" align="center">
+</p>
 
 
 
