@@ -4,8 +4,17 @@ Aplikasi ini memuat beragam informasi yang diperlukan untuk memahami ilmu waris 
 ### **Dasar Ilmu Waris**
 Menu ini memuat informasi dasar- dasar ilmu waris yang dapat digunakan oleh pengguna sesuai kebutuhan, di antaranya adalah informasi mengenai Hukum Waris Islam, Rukun Waris, Syarat Mewarisi, Ahli Waris, Ashabul Furudh, Ashabah, Hujub, Pentashihan Pokok Masalah, dan masalah Al-Aul dan Ar-Radd.
 
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/dasar%20ilmu%20waris.png" width="700" align="center">
+</p>
+
 ### **Lihat Dalil**
 Menu ini memuat semua informasi dalil yang digunakan dalam ilmu waris Islam. Dalil di dalam menu ini dikelompokkan ke dalam masing-masing ahli waris. Pengguna bisa melihat semua dalil tersebut secara rinci pada halaman Detail Dalil.
+
+<p align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Lihat%20Dalil.png" width="700" align="center">
+</p>
+
 
 ### **Hitung Waris**
 Menu ini memuat implementasi ilmu waris Islam untuk menerapkan pembagian harta warisan sesuai dengan syariat Islam. Pertama pengguna diharuskan untuk memasukkan jumlah harta milik pewaris beserta wasiat, hutang, dan pengurusan jenazah, dan selanjutnya memasukkan informasi jenis kelamin pewaris sebelum memulai proses penghitungan.
