@@ -44,13 +44,13 @@ Jika masih ada ahli waris lain yang sekiranya masih bisa mendapatkan harta waris
 Hasil pembagian harta warisan ditampilkan ke dalam UITableView seperti pada gambar di bawah ini. Halaman ini juga menyajikan informasi berupa harta bersih pewaris, pokok masalah awal, pokok masalah akhir, dan status pembagian. Pada bagian bawah, terdapat tombol Reset untuk memulai pembagian dari awal, Home untuk kembali ke halaman depan aplikasi, dan Info untuk rincian informasi pembagian.
 
 <p align="center">
-  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Hasil%20pembagian%20warisan.png" width="700" align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/Hasil%20pembagian%20warisan.png" width="300" align="center">
 </p>
 
 Halaman Detail Pembagian akan muncul ketika pengguna memilih tombol Info. Pada halaman ini ditampilkan semua rincian dari pembagian harta warisan yang sedang dilakukan.
 
 <p align="center">
-  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/rincian%20pembagian.png" width="700" align="center">
+  <img src="https://github.com/Ajisaputrars/IlmuWaris/blob/master/screenshot/rincian%20pembagian.png" width="300" align="center">
 </p>
 
 
