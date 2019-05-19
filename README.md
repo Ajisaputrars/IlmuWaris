@@ -60,8 +60,6 @@ Halaman Detail Ahli Waris akan muncul ketika pengguna memilih salah satu ahli wa
 </p>
 
 
-
-
 ### **Author**
 
 * **[Aji Saputra Raka Siwi][1]**
