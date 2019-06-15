@@ -64,7 +64,7 @@ Halaman Detail Ahli Waris akan muncul ketika pengguna memilih salah satu ahli wa
 
 * **[Aji Saputra Raka Siwi][1]**
 
-This project is free and open. You can participate to this project to make even better for everyone to learn.
+This project is free and open. You can participate to this project and make even better for everyone to learn.
 
 ### **License**
 This project is licensed under the GNU General Public License v3.0 - see the [**LICENSE.md**][2] file for details.
